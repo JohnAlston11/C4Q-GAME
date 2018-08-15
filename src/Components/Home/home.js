@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import './home.css';
-import {Link} from 'react-router-dom';
+
 
 export default class Home extends Component{
     render(){
@@ -31,6 +31,17 @@ export default class Home extends Component{
                         <span className="carousel-control-next-icon" aria-hidden="true"></span>
                         <span className="sr-only">Next</span>
                     </a>
+                </div>
+                <div className="top-games">
+                    <div className='game game-1'>
+                        <button classname="play-button" >Play</button>
+                    </div>
+                    <div className='game' >
+                        <button classname="play-button" >Play</button>
+                    </div>
+                    <div className='game' >
+                        <button classname="play-button" >Play</button>
+                    </div>
                 </div>
             </div>
         )

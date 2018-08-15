@@ -9,6 +9,21 @@
 .d-block{
     height: 100%;
 }
-.App{
 
+.top-games{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-around
+}
+
+.game{
+    width: 300px;
+    height: 400px;
+    background-color: black;
+}
+
+.play-button{
+    
 }
